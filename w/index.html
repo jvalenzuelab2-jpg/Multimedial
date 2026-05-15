@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
@@ -19,16 +20,16 @@
 body{
 /* "body" se refiere a todo el contenido visible de la página */
 
-  background-color:  blue;
+  background-color:  rgb(241, 241, 244);
   /* Define que el fondo de toda la página sea blanco */
 
-  color: yellow;
+  color: rgb(14, 14, 13);
   /* Define que el color del texto sea negro */
 
-  margin: 0;
+  margin: 10;
   /* Elimina los márgenes que los navegadores agregan por defecto */
 
-  height: 100vh;
+  height: 90vh;
   /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
 
   display: flex;
@@ -43,12 +44,40 @@ body{
   font-family: Arial, sans-serif;
   /* Define la tipografía del texto */
 
-  font-size: 60px;
+  font-size: 15px;
   /* Define el tamaño grande del texto */
 
 }
 /* Fin de las reglas de estilo del body */
+/* Contenedor principal */
+        .contenedor {
+            width: 100%;
+            margin: auto;
+        }
 
+        /* Sección o bloque */
+        .bloque {
+            background-color: rgb(241, 238, 238);
+            margin: 40px 0;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        /* Imagen */
+        .bloque img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 5px;
+        }
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
 </style>
 <!-- Fin de la sección de estilos -->
 
@@ -56,11 +85,70 @@ body{
 <!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
+ <!-- Contenedor principal -->
+    <div class="contenedor">
 
-MULTIMEDIAL
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/IMG_8890.jpg" alt="Descripción de la imagen">
+            <h2>"Latencia"
+               
+              200x150 cm.
+            </h2>
+            <p>
+                La velocidad es abordada como una potencia contenida a travez de una escena surreal en la que un galgo inmovil,
+                una cancha vacia y una pelota suspendida generan una sensacion de tiempo detenido.
+                La obra tensiona movimiento y pausa, desafiando la percepcion del ritmo y del tiempo en lo cotidiano
+            </p>
+        </div>
+         <div class="contenedor">
+
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/IMG_4016.jpg" alt="Descripción de la imagen">
+            <h2>"Permanencia"
+               
+              120x90 cm.
+            </h2>
+            <p>
+                En esta obra La silla plastica, objeto funcional y producido en asa, encarna la logica de lo artificial como sustituto de lo noble.
+                El encaje introduce la noción de ornamento y revela la paradoja de una busqueda de autenticidad a travez de lo falso.
+        </div>
+
+        <div class="contenedor">
+
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/IMG_4017.JPG" alt="Descripción de la imagen">
+            <h2>"Interferencia"
+               
+              120x90 cm.
+            </h2>
+            <p>
+                Esta obra reflexiona sobre la irrupcion de lo inesperado en un sistema que aparenta estabilidad. El billar, asociado al control y la precision,
+                es alterado por elementos que introducen una dimensión poética y desestabilizan su lógica habitual.
+        </div>
+
+
+<div class="contenedor">
+
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/IMG_4018.JPEG" alt="Descripción de la imagen">
+            <h2>"El impulso"
+               
+              200x150 cm.
+            </h2>
+            <p>
+                Esta obra aborda la energia desbordada y la tranformación mediante la imagen de un caballo blanco emergiendo de un mar embravecido, donde cuerpo y agua
+                se funden en una misma materia dinamica.
+        </div>
+
+
+
+
 <!-- Texto que aparece en el centro de la pantalla -->
-
+<a href="pagina2.html">Ir a la página 2</a>
 </body>
 <!-- Fin del contenido visible -->
 
